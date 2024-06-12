@@ -7,7 +7,7 @@ from utility import find_object, compute_average
 data_string = "Rose,Flower,35; Oak,Tree,180; Tulip,Flower,40; Pine,Tree,200; Daisy,Flower,25;"
 
 # Task 1: Find if there is a plant named tulip in the data string and display its info
-find_object(data_string, "Tulip")
+find_plant(data_string, "Tulip")
 
 # Task 2: Calculate the average height of all plants
 average_height = compute_average_height(data_string)
